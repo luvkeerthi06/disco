@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: black;
+    font-family: "Freeman", sans-serif;
+    /* background-image: url(https://images.unsplash.com/photo-1593958812614-2db6a598c71c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGlzY298ZW58MHwwfDB8fHww);
+    background-size: cover; */
+    
+}
+.lights{
+    display: flex;
+}
+
+.c-1,.c-10,.c-11,.c-16,.c-21,.c-26,.c-31,.c-36,.c-41,.c-46,.c-51,.c-56,.c-61,.c-66,.c-71,.c-76,.c-81,.c-86,.c-91,.c-96,.c-101,.c-106,.c-111,.c-116,.c-121,.c-126,.c-131{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: c-1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes c-1 {
+    0%{
+        height: 50px;
+    width: 50px;
+    background-color: red;
+    }
+    50% {
+        background-color: lightgreen;
+    }
+    100% {
+        background-color: red;
+
+    }
+    
+}
+.c-2,.c-9,.c-12,.c-17,.c-22,.c-27,.c-32,.c-37,.c-42,.c-47,.c-52,.c-57,.c-62,.c-67,.c-72,.c-77,.c-82,.c-87,.c-92,.c-97,.c-102,.c-107,.c-112,.c-117,.c-122,.c-127,.c-132{
+    height: 40px;
+    width: 40px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    animation-name:c-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes c-2 {
+
+    0%{
+        height: 40px;
+        width: 40px;
+        background-color: lightcoral;
+    }
+    50%{
+
+        background-color: lightblue;
+    }
+    100%{
+
+        background-color: lightskyblue;
+    }
+    
+}
+
+.c-4,.c-5,.c-7,.c-14,.c-18,.c-28,.c-33,.c-38,.c-43,.c-48,.c-53,.c-58,.c-63,.c-68,.c-73,.c-78,.c-83,.c-88,.c-93,.c-98,.c-103,.c-108,.c-113,.c-118,.c-123,.c-128,.c-133{
+
+    height: 50px;
+    width: 50px;
+    background-color: azure;
+    border-radius: 50%;
+    animation-name: c-3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes c-3 {
+    0%{
+
+        height: 50px;
+        width: 50px;
+        background-color: aliceblue;
+    
+    }
+    50%{
+        background-color: brown;
+
+    }
+    100%{
+        background-color: lightsalmon;
+    }
+    
+}
+.c-3,.c-8,.c-13,.c-20,.c-23,.c-24,.c-29,.c-34,.c-39,.c-44,.c-49,.c-54,.c-59,.c-64,.c-69,.c-74,.c-79,.c-84,.c-89,.c-94,.c-99,.c-104,.c-109,.c-114,.c-119,.c-124,.c-129,.c-134{
+
+    height: 50px;
+    width: 50px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    animation-name: c-4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes c-4 {
+
+    0%{ 
+
+        height: 50px;
+        width: 50px;
+        background-color: rgb(0, 139, 93);
+        transform: scale(0.85)
+    }
+    50%{
+
+        background-color: rgb(255, 140, 0);
+        transform: scale(1)
+
+
+    }
+    100%{
+
+        background-color: cadetblue;
+        transform: scale(0.85)
+
+    }
+    
+}
+.c-5,.c-6,.c-15,.c-19,.c-25,.c-30,.c-35,.c-40,.c-45,.c-50,.c-55,.c-60,.c-65,.c-70,.c-75,.c-80,.c-85,.c-90,.c-95,.c-100,.c-105,.c-110,.c-115,.c-120,.c-125,.c-130,.c-135{
+
+    height: 40px;
+    width: 40px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    animation-name: c-5;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes c-5 {
+    0%{
+
+        height: 40px;
+        width: 40px;
+        background-color: deepskyblue;
+        transform: translateX(10px) translateY(5px);
+    }
+    50%{
+
+        background-color: darkslategrey;
+        transform: translateX(-10px) translateY(-5px);
+
+
+    }
+    100%{
+        background-color: turquoise;
+        transform: translateX(10px) translateY(5px);
+
+    }
+    
+}
+.mainbox{
+    color: red;
+    width: 25%;
+    margin-top: 50px;
+    border-radius: 10%;
+    height: auto;
+    font-size: 48px;
+    text-align: center;
+    text-shadow:0 0 10px red;
+    animation-name: mainbox;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in-out;
+    transition-duration: 2s;
+
+}
+@keyframes mainbox {
+    0%{
+        color: red;
+        border: 1px solid red;
+        box-shadow: 0 0 20px 5px red;
+        height: auto;
+        transform: rotateZ(-20deg);
+
+
+    }
+    25%{
+        color: blue;
+        border: 1px solid blue;
+        box-shadow: 0 0 20px 5px blue;
+        height: auto;
+        transform: rotateZ(20deg);
+
+
+    }
+    50%{
+        color: green;
+        border: 1px solid green;
+        box-shadow: 0 0 20px 5px green;
+        height: auto;
+        transform: rotateZ(-20deg);
+
+    }
+    75%{
+        color: aqua;
+        border: 1px solid aqua;
+        box-shadow: 0 0 20px 5px aqua;
+        height: auto;
+        transform: rotateZ(20deg);
+
+    }
+    100%{
+        color: red;
+        border: 1px solid red;
+        box-shadow: 0 0 20px 5px red;
+        height: auto;
+        transform: rotateZ(-20deg);
+
+
+    }
+    
+}
+
+
+
+
+
